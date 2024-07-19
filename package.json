@@ -1,0 +1,23 @@
+{
+  "name": "far",
+  "version": "1.0.0",
+  "description": "A command-line tool for efficient find and replace operations",
+  "main": "far.js",
+  "bin": {
+    "far": "./far.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["find", "replace", "cli", "text"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "glob": "^7.2.0",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
